@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+  <menuitem label="Cadastro">
+    <icon>fas:home fa-fw</icon>
+    <menu>
+      <menuitem label="Dashboard">
+        <action>SystemAdministrationDashboard</action>
+        <icon>fas:tachometer-alt fa-fw</icon>
+      </menuitem>
+      <menuitem label="Acessos">
+        <action>SystemProgramList</action>
+        <icon>far:file-code fa-fw</icon>
+      </menuitem>
+      <menuitem label="Perfil de Usuário">
+        <action>SystemGroupList</action>
+        <icon>fas:users fa-fw</icon>
+      </menuitem>      
+      <menuitem label="Cargo">
+        <action>CargoList</action>
+        <icon>fas:broom fa-fw</icon>
+      </menuitem>
+      
+      <menuitem label="_t{Users}">
+        <action>SystemUserList</action>
+        <icon>fas:user fa-fw</icon>
+      </menuitem>
+      <menuitem label="_t{Menu editor}">
+        <action>SystemMenuEditor</action>
+        <icon>far:edit fa-fw</icon>
+      </menuitem>
+      <menuitem label="_t{Preferences}">
+        <action>SystemPreferenceForm#method=onEdit</action>
+        <icon>fas:cog fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+
+  <menuitem label="Vagas">
+    <icon>fas:hospital-alt fa-fw</icon>
+    <menu>
+      <menuitem label="Testes">
+        <action>TesteList</action>
+        <icon>fas:building fa-fw</icon>
+      </menuitem>
+      <menuitem label="Perguntas">
+        <action>PerguntaList</action>
+        <icon>fas:building fa-fw</icon>
+      </menuitem>
+      <menuitem label="Empresa">
+        <action>PessoaList</action>
+        <icon>fas:hospital fa-fw</icon>
+      </menuitem>
+      <menuitem label="Vagas">
+        <action>VagaList</action>
+        <icon>fas:building fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+
+  <menuitem label="Meu Perfil">
+    <icon>fas:hospital-alt fa-fw</icon>
+    <menu>
+      <menuitem label="Talentos">
+        <action>CurriculoForm#method=onEdit</action>
+        <icon>fas:hospital fa-fw</icon>
+      </menuitem>
+      <menuitem label="Candidaturas">
+        <action>VagaCandidatoList</action>
+        <icon>fas:building fa-fw</icon>
+      </menuitem>      
+    </menu>
+  </menuitem>
+
+  <menuitem label="Gerenciamento">
+    <icon>fas:hospital-alt fa-fw</icon>
+    <menu>
+      <menuitem label="Inscritos">
+        <action>CandidatoVagasSelectionList</action>
+        <icon>fas:hospital fa-fw</icon>
+      </menuitem>
+    </menu>
+  </menuitem>
+  
+</menu>
